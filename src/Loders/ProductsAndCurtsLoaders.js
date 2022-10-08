@@ -21,6 +21,7 @@ export const ProductsAndCurtsLoaders = async () => {
             // console.log(id, quantity)
             addedproduct.quantity = quantity;
             previousCart.push(addedproduct);
+            // console.log(ok)
         }
     }
 
